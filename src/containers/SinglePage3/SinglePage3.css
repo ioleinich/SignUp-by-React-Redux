@@ -1,0 +1,39 @@
+.singlePage3 {
+	width: 50vw;
+	height: 80vh;
+	border: 1px solid black;
+	background-color: white;
+	border: 5px solid blue;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+button {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: 8px 1px;
+  border-radius: 3px;
+  background: blue;
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+  display: block;
+} 
+
+button:hover { 
+	background: red; 
+}
+
+.res {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.res span {
+	color: red;
+	font-weight: 700;
+}
